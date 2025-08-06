@@ -5,9 +5,10 @@ for i in range (n):
   x=int(input())
   l.append(x)
 
-largest=l[0]
+smallest=l[0]
 for i in l:
-  if(i>=largest):
-    largest=i
+  if(i<=smallest):
+    smallest=i
   
-print("Largest Number is:" ,largest)
+    
+print("Smallest Number is:" ,smallest)
