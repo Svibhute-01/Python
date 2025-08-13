@@ -10,4 +10,4 @@ while n > 0:
 if(temp==reversed):
     print("It is palindrome")
 else:
-    print("it is not a palindrome")
+    print("it is not a palindrome") 
