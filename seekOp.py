@@ -1,0 +1,6 @@
+f=open("sample.txt", "r+")
+f.seek(4)  
+f.write("XYZ")
+f.seek(0)
+(f.read())
+print("Cursor position :",f.tell())
