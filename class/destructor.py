@@ -17,3 +17,9 @@ class Student:
         
 
 obj = Student("snehal",36)   
+
+print(Student.__dict__)
+print(Student.__doc__)
+print(Student.__name__)
+print(Student.__module__)
+print(Student.__bases__)
