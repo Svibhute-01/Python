@@ -25,11 +25,11 @@ plt.xlabel('Date')
 plt.ylabel('GLD Price')
 plt.legend()
 
-# 🟢 Limit how many date ticks are shown
+
 plt.gca().xaxis.set_major_locator(mdates.MonthLocator(interval=3))  # every 3 months
 plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))  # e.g. Jan 2020
 
-plt.gcf().autofmt_xdate()  # rotates labels nicely
+plt.gcf().autofmt_xdate() 
 plt.tight_layout()
 plt.show()
 

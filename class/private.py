@@ -2,9 +2,7 @@ class Student:
 
   
   
-    __name = None
-    __roll = None
-    __branch = None
+    
 
   
     def __init__(self, name, roll, branch):
